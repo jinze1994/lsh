@@ -3,7 +3,7 @@ use strict;
 use 5.014;
 
 my $fstd = 'naive.res';
-my $fin = 'sig.res';
+my $fin = 'lsh.res';
 open FSTD, "<$fstd" or die "$!";
 open FIN, "<$fin" or die "$!";
 say "Evaluate $fin by $fstd ..";
